@@ -30,7 +30,7 @@ html, body{
 }
 body{
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
 }
@@ -45,7 +45,7 @@ body{
     gap: 40px;
 }
 .header{
-    background-color: grey;
+    background-color: #FEFDFC;
 }
 .footer{
     background-color: #383230;
@@ -73,7 +73,6 @@ body{
     color:#E0DBD2;
     font-family: "Inter", sans-serif;
     font-size: 13px;
-
 }
 
 .footer_menu-item + .footer_menu-item{
@@ -93,6 +92,7 @@ body{
     font-family: "EB Garamond", serif;
     color: #E0DBD2;
     font-size: 24px;
+    padding: 10px 0 10px;
 }
 .form_btn{
     color:  #383230;
@@ -129,3 +129,167 @@ body{
 .main{
     flex-grow: 1;
 }
+
+.swiper-slide{
+    height: 630px;
+   
+}
+.slider{
+    justify-content: center;
+    max-width: 1220px;
+}
+.section-top{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background-color: #F9F7F4;
+}
+.top_msg{
+    color: #000000;
+    font-family: "EB Garamond", serif;
+    font-size: 48px;
+    font-weight: 400;
+    max-width: 590px;
+}
+.msg{
+    color: #000000;
+    font-family: "EB Garamond", serif;
+    font-size: 34px;
+    font-weight: 400;
+    max-width: 590px;
+}
+.section-img{
+    height: 80px;
+    background-color:  #F9F7F4;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.img-brands + .img-brands{
+    padding-right: 50px;
+}
+.section-phr{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    background-color: #FEFDFC;
+}
+.section-advices{
+    padding: 100px 0 100px;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.name{
+    padding: 8px 0 11px;
+    font-family: "EB Garamond", serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.text-adv{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    max-width: 485px;
+    height: 45px;
+    color: #555555;
+    line-height: 22.4px;
+}
+
+
+.swiper-pagination-bullet{
+    width: 120px;
+    height: 3px;
+    background-color: #555555;
+    border-radius: 0;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    height: 5px;
+    background-color: #fff;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 15px;
+}
+.section-title{
+    font-family: "EB Garamond", serif;
+    font-size: 31px;
+    font-weight: 400;
+    color: #000;
+}
+.section-title-footer{
+    font-family: "EB Garamond", serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: 
+    #FFFFFF;
+}
+.text-market{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+.market-content{
+    display: flex;
+    
+}
+.market{
+    padding: 0 0 120px;
+}
+.card{
+    max-width: 230px;
+    max-height: 355px;
+    border: 2px solid #E0DBD2;
+    margin-left: 40px;
+}
+.card-text{
+    padding: 12px;
+}
+.text-man{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #8C8C8C;
+    padding-top: 4px;
+}
+.card + .card{
+    margin-bottom: 40px;
+}
+.text-card{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #383230;
+    padding: 10px 0 10px;
+}
+.info{
+    display: flex;
+}
+.text-card-name{
+    padding-right: 12px;
+}
+.content{
+    display: flex;
+    
+}
+.content-vert{
+    max-height: 734px;
+}
+
+.market-content{
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200;
+}
+
